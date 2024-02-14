@@ -1,0 +1,11 @@
+testcases\TC_06_Shoppingcarttest.class
+testcases\TC_01_Homepagetest.class
+testcases\TC_06b_shopbydepartment.class
+testcases\TC_02_Loginpagetest.class
+base\Baseclass.class
+testcases\TC_03_Signuppagetest.class
+listeners\Listeners.class
+testcases\TC_04Loginnegativecases.class
+testcases\TC_05_Bottomlinktest.class
+testcases\TC_06a_shopbybrand.class
+testcases\TC_07_checkoutpagetest.class

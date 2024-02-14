@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.TC_06_Shoppingcarttest">
+        <methods>
+          <include name="checkout_the_addingitems"/>
+          <include name="startup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.TC_06_Shoppingcarttest -->
+      <class name="testcases.TC_01_Homepagetest">
+        <methods>
+          <include name="startup"/>
+          <include name="searchmob_click"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.TC_01_Homepagetest -->
+      <class name="testcases.TC_07_checkoutpagetest">
+        <methods>
+          <include name="startup"/>
+          <include name="checkout_the_addingitems"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.TC_07_checkoutpagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
